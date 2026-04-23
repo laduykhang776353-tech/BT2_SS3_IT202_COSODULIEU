@@ -1,0 +1,7 @@
+CREATE DATABASE shipper;
+USE shipper;
+
+CREATE TABLE SHIPPERS (
+	Shipper_id INT PRIMARY KEY AUTO_INCREMENT,
+    Shipper_Name VARCHAR(255),
+);
